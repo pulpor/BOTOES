@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Sedgwick+Ave+Display&display=swap');
+
+body{
+    background-image: url(./img/fundo.jpg);  /* coloca imagem de fundo */
+    background-repeat: no-repeat; /* não repete o fundo */
+    background-size: cover;
+    color: aliceblue;
+}
+
+h1 {
+    font-family: 'Sedgwick Ave Display', cursive;
+    color: rgba(163, 113, 209, 0.8);   
+}
+
+forms{
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+textarea{
+    resize: none
+}
+
+fieldset{
+    width: 500px;
+}
+
+.formulario_inteiro{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}

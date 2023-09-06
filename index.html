@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário SescWartz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="formulario_inteiro">
+        <forms>
+            <h1>SescWarts</h1>
+            <fieldset>  <!-- barrinhas ao redor -->
+
+                <legend>Informações Pessoais: </legend>
+                <!-- placeholder é a instrução -->
+
+                <!-- required = obrigatório -->
+                <!-- label é pra instruir o usuario -->
+                <label for="name">Bruxin: </label><br>
+
+                <input type="text" placeholder="Coloque seu vulgo aqui"
+                name="name" id="name" required><br><br>
+
+                <label for="email">Coruja eletrônica:</label><br>
+                <input type="email" id="email" name="email" required
+                placeholder="Seu e-mail bruxo aqui"><br><br>
+
+                <label for="password">Senha: </label><br>
+                <input type="password" id="password" name="password"
+                placeholder="Sua senha de bruxo aqui" required>
+
+            </fieldset><br>
+            
+            <fieldset>  <!-- barrinhas ao redor -->
+                <legend>Preferências: </legend>
+                    
+                <label>Escolha sua matéria favorita:</label>
+                <br><br>
+                <!-- type é o tipo -->
+                <!-- id é a identificação do componente -->
+                <!-- name é oq faz os radios se unirem -->
+                <input type="radio" id="feiticos" name="materia">
+                <label for="feiticos">Feitiços</label>
+
+                <input type="radio" id="informatica" name="materia">
+                <label for="informatica">Informática</label>
+
+                <input type="radio" id="pocoes" name="materia">
+                <label for="pocoes">Poções</label>
+
+                <input type="radio" id="criaturas" name="materia">
+                <label for="criaturas">Criaturas Mágicas</label>
+
+                <br><br>
+            
+                <label for="color">Cor preferida:</label><br>
+                <input type="color"><br>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Comentários: </legend>
+
+                <label for="commit">Comentários:</label> <br>
+                <!-- cols = colunas, rows = linhas-->
+                <textarea name="commit" 
+                    id="commit" cols="60" rows="7">
+                </textarea>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Envio: </legend>
+
+                <input type="Checkbox">
+                Eu aceito os Termos e Condições
+
+            </fieldset>
+
+        </forms>
+    </div>
+
+    
+</body>
+</html>
